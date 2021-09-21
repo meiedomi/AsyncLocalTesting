@@ -60,7 +60,7 @@ namespace Shared
 
 		private async Task DoStuffAsync()
 		{
-			await Task.Delay(10);
+			await Task.Yield();
 		}
 	}
 }
